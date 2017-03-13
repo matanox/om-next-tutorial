@@ -1,3 +1,6 @@
+;;; based on https://github.com/omcljs/om/wiki/Quick-Start-(om.next)
+;;; proceed to https://github.com/omcljs/om/wiki/Remote-Synchronization-Tutorial for remote synchronization
+
 (ns om-tutorial.core
   (:require [goog.dom :as gdom]
             [om.next :as om :refer-macros [defui]]
